@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ecommerce</title>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+	
+   <div class="container p-3 my-3 bg-primary text-black">
+   	<center><h1>Welcome To Sinhgad Institutes</h1></center>
+   </div>
+   <div class="container p-2 my-1 bg-secondary text-white ">
+   	<p>We are one of the topmost colleges in Pune.</p>
+   </div>
+   <div class="wrapper mt-5">
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav mt-3"></ul>
+				<li><a href="#">Students Profile</a></li>
+			    <li><a href="#">Academic Performance</a></li>
+			    <li><a href="#">Teachers</a></li>
+			    <li><a href="#">Settings</a></li>
+			    <li><a href="#">Help</a></li>
+			</ul>
+		</div>
+
+			<div class="container mt-3">
+			<h2>Student Profile</h2>
+			<p> Name of Student:
+			<button type="button" class="btn btn-outline-secondary">Name</button></p>
+			<p>Roll No.: <button type="button" class="btn btn-outline-secondary">Roll no.</button></p>
+			<p>Mobile No.: <button type="button" class="btn btn-outline-secondary">Mobile no.</button></p>
+			<p>Email: <button type="button" class="btn btn-outline-secondary">Email</button></p>
+			<p>College Name: <button type="button" class="btn btn-outline-secondary"> CollegeName</button></p>
+			
+
+
+	<div class="container mt-3">	
+	<h2>Your Academic Performance</h2>
+	<table class="table table-hover">
+		<thead>
+		<tr>
+			<th>Roll No.</th>
+			<th>Name</th>
+			<th>Marks</th>
+			<th>Grade</th>
+         </tr>
+     </thead>
+     <tbody>
+     <tr>
+     	<td>1</td>
+     	<td>Ram</td>
+     	<td>89%</td>
+     	<td>B</td>
+     </tr>
+
+     <tr>
+     	<td>2</td>
+     	<td>Ria</td>
+     	<td>92%</td>
+     	<td>A</td>
+     </tr>
+
+
+     <tr>
+     	<td>3</td>
+     	<td>John</td>
+     	<td>77%</td>
+     	<td>C</td>
+     </tr>
+
+     <tr>
+     	<td>4</td>
+     	<td>Alice</td>
+     	<td>83%</td>
+     	<td>B</td>
+     </tr>
+ </tbody>
+
+		</body>
+</html>
